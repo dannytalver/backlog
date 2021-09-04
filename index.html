@@ -13,6 +13,31 @@ class Hello extends React.Component {
     return <h1>Sprint, el corazón del Scrum</h1>
   }
 }
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const myelement = (
+  <table>
+    <tr>
+      <th>Nombre</th>
+    </tr>
+    <tr>
+      <td>Tarea 1</td>
+    </tr>
+    <tr>
+      <td>Tarea 2</td>
+    </tr>
+     <tr>
+      <th>Navegación del Sitio/th>
+    </tr>
+    <tr>
+      <td>Diseñar el logo de la pagina principal</td>
+    </tr>
+    <tr>
+      <td>Ver paleta de colores</td>
+    </tr>
+  </table>
+);
 
 ReactDOM.render(<Hello />, document.getElementById('mydiv'))
 </script>
